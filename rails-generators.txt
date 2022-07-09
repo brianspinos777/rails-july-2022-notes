@@ -1,0 +1,40 @@
+
+
+
+https://github.com/brianspinos777/Programming_cheat_sheets/blob/master/_scripting_languages/Ruby/_rails/__rails_cheat_sheat.md
+
+====================================================================================
+
+ $ rails g --help
+ $ rails g model --help
+ $ rails g controller --help
+
+==================================================================================== generate scaffold
+
+$ rails g scaffold room name:string content:text
+$ rails g scaffold user firstname:string lastname:string
+
+
+
+
+==================================================================================== generate controller 
+
+$ bin/rails generate controller Articles index --skip-routes
+
+$ rails g controller home index # creates HomeCOntroller and index method , routes and views
+    url: /home/index
+
+$ bin/rails generate controller Comments
+
+$ bin/rails generate controller Articles index --skip-routes
+
+==================================================================================== generate model
+
+$ rails g model message room:references content:text
+$ bin/rails generate model Article title:string body:text
+$ bin/rails generate model Comment commenter:string body:text article:references
+
+
+==================================================================================== generate resource 
+
+$ rails g resource comment post:references content:text   # like scaffold but no routes? not sure....

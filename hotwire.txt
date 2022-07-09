@@ -1,0 +1,84 @@
+https://hotwired.dev/
+
+
+
+
+
+
+// youtube:
+https://www.youtube.com/watch?v=Qp6sxgjA-xY    <---------<<<<<
+
+
+
+// tutorials
+https://www.hotrails.dev/
+
+
+// docs ???
+https://hotwired.dev/
+
+
+
+
+========================================================================================================================
+
+
+- hotwire-rails GEM 
+        - has turbo-rails ???  -- new version of turbo-links !!! supports forms, links, hrefs 
+        - has stimulus-rails ??? - installs stimulus.js in asset pipeline, so I can write JS controllers ???
+
+
+
+$ rails hotwire:install - configs, redis config for action cable websockets
+
+
+
+// MODEL 
+- when CRUD on a record: send changes to the browser, from backend
+after_create_commit { broadcast_append_to "tweets" } // tweets - is a stream/channel
+after_create_commit { broadcast_prepend_to "tweets" } // tweets - is a stream/channel
+after_update_commit { broadcast_replace_to "tweets" }
+after_destroy_commit { broadcast_remove_to "tweets" }
+
+
+// view - multiple records
+<%= turbo_stream_from "tweets" do %>  // makes JS create a stream !!! cool // stream is automatically opened/closed when we move away from the page
+<%= turbo_frame_tag "tweets" do %>
+    <%= render @tweets %>
+<% end %>
+
+// view - individual record:
+<% turbo_frame_tag dom_id(tweet) do %>
+    <%= //...  %>
+    <%= tweet.body %>
+    <%= //...  %>
+<% end %>
+
+// view - edit individual record:
+<% turbo_frame_tag dom_id(@tweet) do %>
+    <%= // render form  %>
+<% end %>
+
+
+
+
+// rails console
+irb(main):001:0> Tweet.create(body: "Hello World")  # rails view is updated !!!
+irb(main):001:0> Tweet.last.destroy
+
+
+========================================================================================================================
+
+// more work in controller to create a record
+
+
+========================================================================================================================
+
+
+
+========================================================================================================================
+
+
+========================================================================================================================
+
+

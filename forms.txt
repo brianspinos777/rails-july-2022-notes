@@ -1,0 +1,52 @@
+
+
+==============================================================================================================================
+
+
+https://medium.com/@michellekwong2/form-tag-vs-form-for-vs-form-with-fa6e0ac73aac#:~:text=Another%20difference%20between%20form_with%20compared,to%20be%20a%20bad%20thing.
+
+
+==============================================================================================================================
+
+
+
+<%= form_with model: [@post, Comment.new] do |form| %>
+    <%= form.text_area :content, size: "20x5" %>
+    <%= form.submit %>
+<% end %>
+
+
+
+form_for ...
+
+
+
+
+<h1>New Article</h1>
+
+<%= form_with model: @article do |form| %>    //  form_with:  When you pass it a model, it will act the same way as form_for would.
+  <div>                                       //               And if you don’t pass a model, form_with behaves like form_tag 
+    <%= form.label :title %><br>
+    <%= form.text_field :title %>
+  </div>
+
+  <div>
+    <%= form.label :body %><br>
+    <%= form.text_area :body %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
+
+
+==============================================================================================================================
+
+
+
+
+
+
+
+==============================================================================================================================

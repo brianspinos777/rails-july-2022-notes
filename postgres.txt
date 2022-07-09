@@ -1,0 +1,34 @@
+
+
+$ brew install postgresql
+
+
+$ brew services list
+
+$ brew services start postgresql
+
+$ brew services stop postgresql
+
+# You can check the status of your server at any time:
+$ brew services list
+
+
+
+https://medium.com/geekculture/postgresql-rails-and-macos-16248ddcc8ba
+
+
+
+
+================================================================================ rails app from sqlite to postgres ???
+
+$ rails db:system:change --to=postgresql
+$ bundle
+
+
+================================================================================
+
+
+================================================================================
+
+
+================================================================================

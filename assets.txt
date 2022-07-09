@@ -1,0 +1,2 @@
+$ RAILS_ENV=production rails assets:precompile
+$ RAILS_ENV=development rails assets:precompile

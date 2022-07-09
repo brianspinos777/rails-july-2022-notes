@@ -1,0 +1,17 @@
+Heroku 
+
+
+
+// push your changes to git 
+
+$ heroku create 
+$ git push heroku main
+$ bundle lock --add-platform x86_64-linux # if there is an error... ???
+// add git changes 
+$ git push heroku main # again
+$ heroku run rake db:migrate
+$ heroku addons:create heroku-redis:hobby-dev -a mighty-tundra-27310  # use my heroku app name
+
+// add root route in rails app 
+
+// visit heroku link provided in logs

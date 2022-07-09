@@ -1,0 +1,67 @@
+
+
+- associations - has_many
+- associations - has_one
+- associations - has_and_belongs_to_many
+- associations - has_many through
+
+
+
+- forms 
+
+
+
+- turbo links
+
+- action cable: is now application cable
+
+- chat ? hotwire ?  or action cable ?
+
+
+
+- postgres 
+    - gem 'pg' -- better to start the app with pg: 
+         --->  $ rails new blog -d postgresql
+    - $ brew install postgres -- https://wiki.postgresql.org/wiki/Homebrew
+    - $ brew services start postgresql
+    - $ psql postgres
+    - $ PG --version
+
+- heroku - 
+
+
+- rspec 
+
+ capybara -- EDUARDO: not sure
+
+- mailer ?
+
+- cancan  ?
+
+
+
+- file storage
+
+- gem stripe - for payment
+
+
+- jobs 
+
+- redis
+
+
+- debugging:   just type: `debugger` in rails !!!
+    - https://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
+
+
+
+
+============================================================================= DONE
+
+
+- twitter-bootstrap
+- users Devise - installation DONE!
+
+
+
+.
