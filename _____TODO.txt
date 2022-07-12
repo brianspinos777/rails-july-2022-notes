@@ -1,4 +1,6 @@
 
+- rspec 
+
 
 - associations - has_one
 
@@ -25,9 +27,9 @@
 - heroku - 
 
 
-- rspec 
 
- capybara -- EDUARDO: not sure
+
+ capybara -- EDUARDO: not sure  -- https://www.youtube.com/watch?v=1kwCymmoLaY
 
 - mailer ?
 
@@ -49,7 +51,9 @@
     - https://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
 
 
+- importmaps
 
+- esbuild
 
 ============================================================================= DONE
 

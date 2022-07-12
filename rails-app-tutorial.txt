@@ -31,6 +31,7 @@ $ bundle info <gem>
 
 $ rails new --help
 $ rails new blog
+$ rails new blog -T skip rails testing framework # because rspec is better  # THIS IS NOT TESTED YET
 $ rails new blog -d postgresql
 $ rails new blog  --css bootstrap -d postgresql   # I am 90% sure it is tested !!!
 $ rails new myapp --css tailwind
