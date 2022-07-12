@@ -32,7 +32,7 @@ $ bundle info <gem>
 $ rails new --help
 $ rails new blog
 $ rails new blog -d postgresql
-$ rails new blog  --css bootstrap -d postgresql   ### NOT TESTED, wait, I think it is tested, I am 90% sure it is tested !!!
+$ rails new blog  --css bootstrap -d postgresql   # I am 90% sure it is tested !!!
 $ rails new myapp --css tailwind
 $ rails new blog3 --css bootstrap
 

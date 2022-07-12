@@ -1,0 +1,7 @@
+
+
+
+
+$ rails c 
+
+#  reload!
