@@ -1,17 +1,12 @@
 
 
-- associations - has_many
 - associations - has_one
-- associations - has_and_belongs_to_many
-- associations - has_many through
-
-
 
 - forms 
 
 
 
-- turbo links
+- turbo links # is it deprecated ???
 
 - action cable: is now application cable
 
@@ -45,7 +40,7 @@
 - gem stripe - for payment
 
 
-- jobs 
+- background jobs (rails jobs)
 
 - redis
 
@@ -59,8 +54,6 @@
 ============================================================================= DONE
 
 
-- twitter-bootstrap
-- users Devise - installation DONE!
 
 
 
