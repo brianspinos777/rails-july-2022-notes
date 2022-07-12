@@ -34,7 +34,7 @@ $ bundle
 
 
 # start console
-$ psql postgres 
+$ rails db   # OR... $ psql postgres 
 
 
 # list of databases (it's a lowercase L)
@@ -72,6 +72,7 @@ truncate my_table;
 
 # Quit psql
 \q
+exit
 
 
 ================================================================================
