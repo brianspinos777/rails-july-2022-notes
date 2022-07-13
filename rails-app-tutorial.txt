@@ -59,6 +59,7 @@ $ rails g --help
 $ rails g model --help
 $ rails g controller --help
 
+$ bin/rails db:create  # not tested
 $ bin/rails db:migrate
 $ bin/rails db:rollback # undoes 1 migration
 
