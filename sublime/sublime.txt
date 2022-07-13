@@ -1,0 +1,35 @@
+
+================================================================================================== Install Package Control
+
+cmd+shift+P 
+
+then type:
+"Package Control: Install Package"
+
+and select it!
+
+
+
+// to exit:
+cmd+shift+P 
+
+
+
+================================================================================================== erb plugin:
+
+// add ERB to sublime:
+
+cmd+shift+P to get the command menu,
+ then type:
+ "Package Control: Install Package" 
+ 
+ and select it
+
+then type: 
+
+ "SublimeERB"
+
+ and select it
+
+
+ ==================================================================================================

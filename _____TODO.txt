@@ -1,10 +1,21 @@
 
+
+- forms 
+
+- heroku
+
+
 - rspec 
 
 
+
+
+- importmaps
+
+- esbuild
+
 - associations - has_one
 
-- forms 
 
 
 
@@ -24,7 +35,6 @@
     - $ psql postgres
     - $ PG --version
 
-- heroku - 
 
 
 
@@ -51,9 +61,7 @@
     - https://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
 
 
-- importmaps
 
-- esbuild
 
 ============================================================================= DONE
 
