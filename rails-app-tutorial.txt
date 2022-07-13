@@ -40,7 +40,12 @@ $ rails new blog3 --css bootstrap
 
 $ rails s
 $ bin/rails server
-$ ./bin/dev   # what does this do? compile the CSS? watch for changes? - SEEMS NOT, need to refresh page    # creates some files ?  Procfile.dev 
+
+#
+# runs forman and css stuff 
+# what does this do? compile the CSS? watch for changes? - SEEMS NOT, need to refresh page    # creates some files ?  Procfile.dev 
+#
+$ ./bin/dev   
 
 
 $ bin/rails console
@@ -55,6 +60,7 @@ $ rails g model --help
 $ rails g controller --help
 
 $ bin/rails db:migrate
+$ bin/rails db:rollback # undoes 1 migration
 
 
 ========================================================================

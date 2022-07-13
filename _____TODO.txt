@@ -1,31 +1,26 @@
 
 
-- forms 
 
 - heroku
-
-
-- rspec 
-
-
-
-
-- importmaps
-
+- Rails hotwire-strada - for mobile??
+- Rails hotwire-stimulus - like react.js - js controllers and html views
+- Rails hotwire-TURBO - replacing html
+- Importmaps - handling js assets - so we can do: import foo from “foo”
 - esbuild
-
 - associations - has_one
-
-
-
-
 - turbo links # is it deprecated ???
-
 - action cable: is now application cable
-
 - chat ? hotwire ?  or action cable ?
+- capybara -- EDUARDO: not sure  -- https://www.youtube.com/watch?v=1kwCymmoLaY
+- mailer ?
+- cancan  ?
+- file storage
+- gem stripe - for payment
+- background jobs (rails jobs)
+- redis
 
-
+- debugging:   just type: `debugger` in rails !!!
+    - https://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
 
 - postgres 
     - gem 'pg' -- better to start the app with pg: 
@@ -37,36 +32,7 @@
 
 
 
-
-
- capybara -- EDUARDO: not sure  -- https://www.youtube.com/watch?v=1kwCymmoLaY
-
-- mailer ?
-
-- cancan  ?
-
-
-
-- file storage
-
-- gem stripe - for payment
-
-
-- background jobs (rails jobs)
-
-- redis
-
-
-- debugging:   just type: `debugger` in rails !!!
-    - https://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
-
-
-
-
 ============================================================================= DONE
 
-
-
-
-
-.
+- forms 
+- rspec 
