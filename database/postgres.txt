@@ -1,7 +1,12 @@
+- postgres 
+    - gem 'pg' --> better to start the app with pg: 
+         --->  $ rails new blog -d postgresql
+    - $ pg --version # not sure here
 
 
-$ brew install postgresql
+================================================================================ installation
 
+$ brew install postgresql  #  -- https://wiki.postgresql.org/wiki/Homebrew
 
 $ brew services list
 
@@ -15,13 +20,10 @@ $ brew services stop postgresql
 $ brew services list
 
 
-
 https://medium.com/geekculture/postgresql-rails-and-macos-16248ddcc8ba
 
 
 https://wiki.postgresql.org/wiki/Homebrew
-
-
 
 
 ================================================================================ rails app from sqlite to postgres ???
@@ -29,9 +31,7 @@ https://wiki.postgresql.org/wiki/Homebrew
 $ rails db:system:change --to=postgresql
 $ bundle
 
-
 ================================================================================
-
 
 # start console
 $ rails db   # OR... $ psql postgres 

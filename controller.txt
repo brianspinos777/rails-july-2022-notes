@@ -2,3 +2,10 @@
 
 
  @article = Article.find(params[:id])
+
+
+
+def fake_models_path(foo) # just for the fake model
+    "/fake_messages"
+end
+helper_method :fake_models_path

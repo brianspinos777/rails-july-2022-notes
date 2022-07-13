@@ -12,27 +12,14 @@
 - action cable: is now application cable
 - chat ? hotwire ?  or action cable ?
 - capybara -- EDUARDO: not sure  -- https://www.youtube.com/watch?v=1kwCymmoLaY
-- mailer ?
-- cancan  ?
+- mailer
+- cancan
 - file storage
 - gem stripe - for payment
-- background jobs (rails jobs)
+- background jobs (rails jobs) 
 - redis
 
 - debugging:   just type: `debugger` in rails !!!
     - https://edgeguides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
 
-- postgres 
-    - gem 'pg' -- better to start the app with pg: 
-         --->  $ rails new blog -d postgresql
-    - $ brew install postgres -- https://wiki.postgresql.org/wiki/Homebrew
-    - $ brew services start postgresql
-    - $ psql postgres
-    - $ PG --version
-
-
-
 ============================================================================= DONE
-
-- forms 
-- rspec 
