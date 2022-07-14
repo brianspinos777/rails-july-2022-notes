@@ -1,0 +1,23 @@
+
+
+esbuild   
+
+(compiles javascript to 1 file?)
+
+-- comes with rails 7 by default ?
+
+
+
+// an extremely fast javascript bundler  -- faster than rollup? webpack?   (100x times faster)
+
+
+ (a bundle is a big JS file that was the result of compiling many JS files together) 
+
+
+// docs
+esbuild.github.io
+
+
+$ rails new blog -j esbuild --css bootstrap 
+
+========================================================================================================================

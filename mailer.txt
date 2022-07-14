@@ -1,6 +1,13 @@
 
 
 
+//docs
+https://guides.rubyonrails.org/action_mailer_basics.html
+
+
+
+
+
 $ rails g mailer comments submitted
 
 // comments_mailer.rb

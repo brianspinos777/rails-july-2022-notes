@@ -1,20 +1,18 @@
-https://hotwired.dev/
-
-
-
 
 
 
 // youtube:
-https://www.youtube.com/watch?v=Qp6sxgjA-xY    <---------<<<<<
-
+https://www.youtube.com/watch?v=Qp6sxgjA-xY
 
 
 // tutorials
 https://www.hotrails.dev/
 
 
-// docs ???
+// docs
+https://turbo.hotwired.dev/  
+https://turbo.hotwired.dev/reference/drive  <---- ??? docs ???
+https://turbo.hotwired.dev/handbook/introduction
 https://hotwired.dev/
 
 

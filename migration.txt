@@ -2,6 +2,13 @@
 
 
 
+//docs
+https://api.rubyonrails.org/v7.0.3.1/classes/ActiveRecord/ConnectionAdapters/SchemaStatements.html#method-i-add_column
+
+
+
+
+
 https://github.com/brianspinos777/Programming_cheat_sheets/blob/master/_scripting_languages/Ruby/_rails/__rails_cheat_sheat.md#generators
 
 
@@ -16,3 +23,9 @@ $ bin/rails db:migrate RAILS_ENV=development
 
 $ rake db:setup
 $ rake db:create
+
+
+
+:primary_key, :string, :text, :integer, :bigint, :float, :decimal, :numeric, :datetime, :time, :date, :binary, :blob, :boolean.
+
+:index  ????

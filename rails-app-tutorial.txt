@@ -29,6 +29,12 @@ $ bundle info <gem>
 
 ======================================================================== rails commands 
 
+
+//docs
+https://guides.rubyonrails.org/command_line.html
+
+
+
 $ rails new --help
 $ rails new blog
 $ rails new blog -T skip rails testing framework # because rspec is better  # THIS IS NOT TESTED YET

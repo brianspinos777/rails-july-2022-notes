@@ -1,0 +1,19 @@
+
+
+https://stimulus.hotwired.dev/
+
+
+https://www.youtube.com/watch?v=kCMB3-NHip0
+
+
+https://www.youtube.com/watch?v=85bQbmzlckc - stimulus 2.0
+
+
+
+
+// docs
+https://stimulus.hotwired.dev/reference/controllers
+
+
+
+
