@@ -1,8 +1,8 @@
-$ rails routes # rails_route_method GET /foo  controller#action
+# $ rails routes # rails_route_method GET /foo  controller#action
 
 
 
-
+new_post_comment_path(@post)
 
 
 get "/articles", to: "articles#index"
@@ -20,5 +20,10 @@ resources :rooms do
 end
 
 resources :articles do
-    resources :comments
-  end
+  resources :comments
+end
+
+
+resources :articles do
+  resources :comments, only: [:new, :create]
+end

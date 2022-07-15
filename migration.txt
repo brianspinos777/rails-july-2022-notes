@@ -29,3 +29,78 @@ $ rake db:create
 :primary_key, :string, :text, :integer, :bigint, :float, :decimal, :numeric, :datetime, :time, :date, :binary, :blob, :boolean.
 
 :index  ????
+
+
+
+========================================================================================================================
+
+
+// docs
+https://guides.rubyonrails.org/active_record_migrations.html
+
+
+
+
+class CreateProducts < ActiveRecord::Migration[7.0]
+  def change
+    create_table :products do |t|
+      t.string :name
+      t.text :description
+
+      t.timestamps
+    end
+  end
+end
+
+========================================================================================================================
+
+
+
+class CreateProducts < ActiveRecord::Migration[7.0]
+  def change
+    create_table :products do |t|
+      t.string :name
+      t.numeric :rate_per_hour
+      t.datetime :started_at, null: false
+      t.text :description
+
+      t.timestamps
+    end
+  end
+end
+========================================================================================================================
+
+
+
+
+========================================================================================================================
+
+
+
+
+
+========================================================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

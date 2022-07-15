@@ -51,6 +51,11 @@ Article.all
 
 
 
+class Ticket < ApplicationRecord
+  has_rich_text :content # $ rails action_text:install  # ???  # form.rich_text_area :content
+end
+
+
 
 
 

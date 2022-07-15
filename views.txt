@@ -1,13 +1,27 @@
 
 
 
+<!-- https://guides.rubyonrails.org/action_view_helpers.html -->
+
+
 <%# this is a comment %>
 
 
  dom_id(tweet)
 
 
- https://guides.rubyonrails.org/action_view_helpers.html
+<%= content_tag :div, id: dom_id(@ticket) do %>
+  <p><%= @ticket.title %></p>
+  <p><%= @ticket.content %></p>
+<% end %>
+
+
+<%= render @post.comments %>
+
+
+<%= render "tweets/form", tweet: @tweet %>
+
+
 
 
 

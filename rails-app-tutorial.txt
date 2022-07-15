@@ -23,7 +23,7 @@ $ bin/rails server
 
 $ bundle
 $ bundle install
-$ bundle add <gem> # not sure if this works 
+$ bundle add <gem>
 
 $ bundle info <gem>
 
@@ -71,5 +71,12 @@ $ bin/rails db:rollback # undoes 1 migration
 
 
 ========================================================================
+
+$ rails action_text:install  # ???
+
+
+
+
+
 
 .

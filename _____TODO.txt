@@ -1,6 +1,6 @@
 
 
-
+- bootstrap container, rows
 - Rails hotwire-TURBO - replacing html
 - add header from bootstrap
 - bootstrap modals
@@ -8,6 +8,7 @@
 - capybara -- EDUARDO: not sure  -- https://www.youtube.com/watch?v=1kwCymmoLaY
 - mailer
 - cancan
+- sidekiq <<
 - background jobs (rails jobs) -- https://guides.rubyonrails.org/active_job_basics.html  ???
 - file storage
 

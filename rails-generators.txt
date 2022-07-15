@@ -23,11 +23,12 @@ https://guides.rubyonrails.org/command_line.html#bin-rails-generate
 
 $ rails g scaffold room name:string content:text
 $ rails g scaffold user firstname:string lastname:string
+$ rails g scaffold tickets title
 
 
 :primary_key, :string, :text, :integer, :bigint, :float, :decimal, :numeric, :datetime, :time, :date, :binary, :blob, :boolean.
 
-
+:references
 :index  ????
 
 ==================================================================================== generate controller 
